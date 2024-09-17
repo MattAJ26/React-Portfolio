@@ -65,7 +65,7 @@ function Form() {
           type="email"
           placeholder="email"
         />
-        <input
+        <textarea
           value={text}
           name="text"
           onChange={handleInputChange}
