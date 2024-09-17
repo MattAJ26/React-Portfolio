@@ -1,8 +1,31 @@
-# React + Vite
+# React Portfolio
+![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A professional portfolio using React that displays navtabs for an About, Projects, Resume, and Contact sections.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+- Run npm create vite
+- Enter name of folder, use React and Javascript
+- Run npm install
+- Install bootstrap using npm install bootstrap@v5.2.3
+- Run npm dev and navigate to the URL to see the app
+
+## Usage
+[Deployed Site]()
+
+![Screenshot](src/assets/react-portfolio-screenshot.png)
+
+## License
+
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+
+## Questions
+[GitHub profile](github.com/MattAJ26) email: mattajohnson26@gmail.com
+-Here you can find my contact info to reach out to me with any questions about this project.
