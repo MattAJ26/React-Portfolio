@@ -15,10 +15,10 @@ A professional portfolio using React that displays navtabs for an About, Project
 - Enter name of folder, use React and Javascript
 - Run npm install
 - Install bootstrap using npm install bootstrap@v5.2.3
-- Run npm dev and navigate to the URL to see the app
+- Run npm dev and navigate to the URL to see the app in development stage
 
 ## Usage
-[Deployed Site]()
+[Deployed Site](https://mattaj26-react-portfolio.netlify.app/)
 
 ![Screenshot](src/assets/react-portfolio-screenshot.png)
 
