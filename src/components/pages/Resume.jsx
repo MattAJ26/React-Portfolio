@@ -5,7 +5,7 @@ export default function Resume() {
     <div>
       <h1>Resume</h1>
       <p className='pdf-wrapper'>
-      <embed src={resume} type="application/pdf"></embed>
+      <embed src={resume} width="device-width" type="application/pdf"></embed>
       </p>
     </div>
   );

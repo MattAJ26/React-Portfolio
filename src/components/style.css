@@ -4,26 +4,26 @@
 
 .form input {
   display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 100%;
   border-radius: 5px;
 }
 
 .form textarea {
-  height: 100px;
+  height: 120px;
   display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
   border-radius: 5px;
 }
 
 .pdf-wrapper {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 25%;
   width: 100%;
-  height: 0;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -33,7 +33,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 700px;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -45,7 +45,7 @@
 .developer-photo {
   width: 300px;
   height: auto;
-  margin-bottom: 20px;
+  margin: 20px;
   border-radius: 5px;
 }
 
@@ -53,6 +53,11 @@
   width: 50px;
   height: 50px;
   margin: 20px;
+}
+
+.badge-photo {
+  width: 250px;
+  height: auto;
 }
 
 .logo:hover {

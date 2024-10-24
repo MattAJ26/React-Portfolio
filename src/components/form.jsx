@@ -57,32 +57,38 @@ function Form() {
   };
 
   return (
-    <div className="container text-center">
+    <div className="container text-center vh-100">
       <h1>Hello {name}</h1>
+      <div class="container">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-10 col-md-8 col-lg-6">
       <form ref={form} className="form" onSubmit={handleFormSubmit}>
-      <input
+      <input className="fs-4"
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
         />
-        <input
+        <input className="fs-4"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
         />
-        <textarea
+        <textarea className="fs-4"
           value={text}
           name="text"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
         />
-        <button type="submit">Submit</button>
+        <button className="fs-5" type="submit">Submit</button>
       </form>
+      </div>
+      </div>
+      </div>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
